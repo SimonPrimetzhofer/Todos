@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "ng-openapi-gen": "ng-openapi-gen -i D:\\Softwareprojekte\\Todos\\TodoAPI\\TodoAPI\\Spec\\todoapi_spec.json",
+    "generate:api:model": "npm run ng-openapi-gen"
   },
   "private": true,
   "dependencies": {
